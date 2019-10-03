@@ -1,0 +1,45 @@
+.App{
+
+  background-image: url("./Assets/backgournd.png");
+
+}
+body{
+
+}
+.loader {
+  border: 16px solid rgb(151, 2, 10);
+  border-radius: 50%;
+  border-top: 16px solid #186C66;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin-left:45%;
+  margin-top: 10%;
+  position: relative;
+}
+.percent{
+  position: absolute;
+  left: 0;
+  top: 0%;
+  right:0;
+  bottom:0;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.dataTables_wrapper {
+  background: white;
+}
+body{
+  background-image: url("./Assets/backgournd.png");
+}
